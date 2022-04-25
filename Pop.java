@@ -50,7 +50,6 @@ public class Pop {
 
             for(int yearlyTotal : yearlyTotals) {
                 NumberFormat scientificNotation = new DecimalFormat("#.######E0");
-                System.out.println(scientificNotation.format(yearlyTotal));
                 output.append(scientificNotation.format(yearlyTotal) + ","); // format the string in scientific notiation and add it to our output string
             }
 
